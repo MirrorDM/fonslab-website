@@ -30,7 +30,7 @@ export default function Hero() {
           </div>
 
           <div className="mt-10 -mx-4 relative lg:mt-0">
-            <div className="relative h-[400px] rounded-lg shadow-lg overflow-hidden">
+            <div className="relative h-[400px] mx-auto rounded-none lg:rounded-lg shadow-lg overflow-hidden">
               <Image
                 src="/images/data-medium-1336.jpg"
                 alt="AI and Blockchain Technology"

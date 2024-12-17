@@ -42,7 +42,7 @@ export default function About() {
           </div>
 
           <div className="mt-10 -mx-4 relative lg:mt-0">
-            <div className="relative h-[400px] mx-auto rounded-lg shadow-lg overflow-hidden">
+            <div className="relative h-[400px] mx-auto rounded-none lg:rounded-lg shadow-lg overflow-hidden">
               <Image
                 src="/images/nasa-medium-1920.jpg"
                 alt="Digital Innovation"
