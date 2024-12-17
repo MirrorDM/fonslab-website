@@ -44,7 +44,7 @@ export default function About() {
           <div className="mt-10 -mx-4 relative lg:mt-0">
             <div className="relative h-[400px] mx-auto rounded-lg shadow-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80"
+                src="/images/nasa-medium-1920.jpg"
                 alt="Digital Innovation"
                 fill
                 className="object-cover"
