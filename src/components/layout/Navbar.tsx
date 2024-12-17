@@ -1,6 +1,6 @@
 'use client';
 
-import { Menu, X, Layers, AudioLines } from 'lucide-react';
+import { Menu, X, Layers } from 'lucide-react';
 import { useState } from 'react';
 import Link from 'next/link';
 

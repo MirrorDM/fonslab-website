@@ -10,7 +10,7 @@ export default function About() {
               About Fonslab
             </h3>
             <p className="mt-3 text-lg text-gray-600">
-            At Fonslab, we're pioneering the future of digital transformation through cutting-edge AI and blockchain solutions. Our passion for innovation drives us to push boundaries and create technology that matters.
+            At Fonslab, we are pioneering the future of digital transformation through cutting-edge AI and blockchain solutions. Our passion for innovation drives us to push boundaries and create technology that matters.
             </p>
 
             <dl className="mt-10 space-y-10">
@@ -23,7 +23,7 @@ export default function About() {
                 {
                   id: 2,
                   stat: 'Partnership',
-                  label: 'Your success is our success. We\'re in this together.',
+                  label: 'Your success is our success. We are in this together.',
                 },
                 {
                   id: 3,

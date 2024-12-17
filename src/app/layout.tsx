@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Jost, League_Spartan} from 'next/font/google';
+import { League_Spartan } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
@@ -8,12 +8,6 @@ const spartan = League_Spartan({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-spartan',
-});
-
-const jost = Jost({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-jost',
 });
 
 export const metadata: Metadata = {
