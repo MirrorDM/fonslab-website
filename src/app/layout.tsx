@@ -13,6 +13,12 @@ const spartan = League_Spartan({
 export const metadata: Metadata = {
   title: 'Fonslab',
   description: 'Empowering businesses with cutting-edge AI and blockchain solutions',
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', type: 'image/x-icon' }, // fallback
+    ],
+  },
 };
 
 export default function RootLayout({
