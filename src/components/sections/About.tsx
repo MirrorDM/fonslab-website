@@ -10,10 +10,11 @@ export default function About() {
               About Fonslab
             </h3>
             <p className="mt-3 text-lg text-gray-600">
-            At Fonslab, we are pioneering the future of digital transformation through cutting-edge AI and blockchain solutions. Our passion for innovation drives us to push boundaries and create technology that matters.
+              Fonslab is a team of engineers and researchers building trustworthy, human-centered AI.
+              We pair deep model expertise with practical product design—bringing ideas from prototype to production.
             </p>
 
-            <dl className="mt-10 space-y-10">
+{/*            <dl className="mt-10 space-y-10">
               {[
                 {
                   id: 1,
@@ -38,7 +39,7 @@ export default function About() {
                   </dt>
                 </div>
               ))}
-            </dl>
+            </dl>*/}
           </div>
 
           <div className="mt-10 -mx-4 relative lg:mt-0">

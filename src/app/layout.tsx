@@ -11,12 +11,13 @@ const spartan = League_Spartan({
 });
 
 export const metadata: Metadata = {
-  title: 'Fonslab',
-  description: 'Empowering businesses with cutting-edge AI and blockchain solutions',
+  title: 'Fonslab — Practical AI for Industry & Everyday Life',
+  description:
+    'Fonslab provides enterprise AI model services and an AI companion toy focused on helpful, human-centered interactions.',
   icons: {
     icon: [
       { url: '/icon.svg', type: 'image/svg+xml' },
-      { url: '/favicon.ico', type: 'image/x-icon' }, // fallback
+      { url: '/favicon.ico', type: 'image/x-icon' },
     ],
   },
 };

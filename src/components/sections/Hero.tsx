@@ -10,16 +10,16 @@ export default function Hero() {
           <div className="relative">
             <main className="mt-10 sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28">
               <div className="sm:text-center lg:text-left">
-                <h1 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl">
-                  <span className="block">Innovate with</span>
-                  <span className="block text-brand-600">AI & Blockchain</span>
+                <h1 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-5xl">
+                  <span className="block">Practical AI for</span>
+                  <span className="block text-brand-600">industry & everyday life</span>
                 </h1>
                 <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  Empowering businesses with cutting-edge AI and blockchain solutions. We transform ideas into reality through innovative technology and creative excellence.
+                  We build dependable AI products and infrastructure, from LLM services for enterprises to an engaging AI companion for families.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
-                    <Link href="#features" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-brand-600 hover:bg-brand-700 md:py-4 md:text-lg md:px-10">
+                    <Link href="#services" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-brand-600 hover:bg-brand-700 md:py-4 md:text-lg md:px-10">
                       Explore Solutions
                       <ArrowRight className="ml-2 h-5 w-5" />
                     </Link>
@@ -33,7 +33,7 @@ export default function Hero() {
             <div className="relative h-[400px] mx-auto rounded-none lg:rounded-lg shadow-lg overflow-hidden">
               <Image
                 src="/images/data-medium-1336.jpg"
-                alt="AI and Blockchain Technology"
+                alt="Human-centered AI systems"
                 fill
                 className="object-cover"
                 priority
