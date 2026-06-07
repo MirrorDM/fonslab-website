@@ -1,24 +1,37 @@
-import type { Metadata } from 'next';
-import { League_Spartan } from 'next/font/google';
-import './globals.css';
-import Navbar from '@/components/layout/Navbar';
-import Footer from '@/components/layout/Footer';
+import type { Metadata } from "next";
+import { DM_Sans, Newsreader } from "next/font/google";
+import "./globals.css";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
-const spartan = League_Spartan({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-spartan',
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-dm-sans",
+});
+
+const newsreader = Newsreader({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
+  style: ["normal", "italic"],
+  display: "swap",
+  variable: "--font-newsreader",
 });
 
 export const metadata: Metadata = {
-  title: 'Fonslab — Practical AI for Industry & Everyday Life',
+  metadataBase: new URL("https://fonslab.com"),
+  title: {
+    default: "Fonslab Capital — Long-Horizon Technology Capital",
+    template: "%s · Fonslab Capital",
+  },
   description:
-    'Fonslab provides enterprise AI model services and an AI companion toy focused on helpful, human-centered interactions.',
-  icons: {
-    icon: [
-      { url: '/icon.svg', type: 'image/svg+xml' },
-      { url: '/favicon.ico', type: 'image/x-icon' },
-    ],
+    "Fonslab Capital is a long-horizon investment partner for China's hard-technology leaders — investing across the full lifecycle, from pre-IPO rounds and Hong Kong cornerstone placements to long-term ownership in the public markets.",
+  openGraph: {
+    title: "Fonslab Capital",
+    description:
+      "A long-horizon investment partner for China's hard-technology leaders, from pre-IPO to the public markets.",
+    type: "website",
   },
 };
 
@@ -28,15 +41,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={spartan.className}>
-        <div className="min-h-screen bg-gradient-to-br from-slate-100 via-purple-50 to-blue-50 flex flex-col">
-          <Navbar />
-          <main className="flex-grow pt-16">
-            {children}
-          </main>
-          <Footer />
-        </div>
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={`${dmSans.variable} ${newsreader.variable}`}
+    >
+      <body
+        suppressHydrationWarning
+        className="min-h-screen bg-paper text-ink antialiased flex flex-col"
+      >
+        <Navbar />
+        <main className="flex-grow">{children}</main>
+        <Footer />
       </body>
     </html>
   );
